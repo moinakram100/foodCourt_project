@@ -1,0 +1,222 @@
+ @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+.cartcontainer{
+    margin-top:70px;
+    margin-left: 12%;
+}
+
+.img-sm{
+    width: 80px;
+    height: 80px
+}
+.itemside .info{
+    padding-left: 15px;
+    padding-right: 7px
+}
+.table-shopping-cart .price-wrap{
+    line-height: 1.2
+}
+.table-shopping-cart .price{
+    font-weight: bold;
+    margin-right: 5px;
+    display: block
+}
+.remove_cartItem{
+    background-color: white;
+    border:none;
+}
+.text-muted{
+    color: #969696 !important
+}
+.anchor{
+    text-decoration: none;
+}
+.anchor:hover{
+    text-decoration: underline;
+}
+.cart{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0px
+}
+.container{
+    width: 90%;
+}
+.itemside{
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+.dlist-align{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+[class*="dlist-"]{
+    margin-bottom: 5px
+}
+.coupon{
+    border-radius: 1px
+}
+.price{
+    font-weight: 600;
+    color: #212529
+}
+.btn.btn-out{
+    outline: 1px solid #fff;
+    outline-offset: -5px
+}
+.btn-main{
+    border-radius: 2px;
+    text-transform: capitalize;
+    font-size: 15px;
+    padding: 10px 19px;
+    cursor: pointer;
+    color: #fff;
+    width: 100%
+}
+.btn-light{
+    color: #ffffff;
+    background-color: #F44336;
+    border-color: #f8f9fa;
+    font-size: 12px
+}
+.btn-light:hover{
+    color: #ffffff;
+    background-color: #F44336;
+    border-color: #F44336
+}
+.btn-apply{
+    font-size: 11px
+} 
+.cart_static{
+    border: 2px solid black;
+    width: 97%;
+}
+.cashSample{
+    display: flex;
+    justify-content: center;
+    margin-left: 3px;
+    width: 100%;
+}
+.cart_static h3{
+    padding: 5px 0;
+    text-align: end;
+    margin-right: 40px;
+}
+.cost_button{
+    width: 100%;
+    margin: 2% 13%;
+}
+.cost_area{
+    width: 90%;
+}
+.cost_button button{
+    width: 100%;
+    margin: 2px 0;
+}
+.empty_cart{
+    color:white;
+    text-align: center;
+    transform: translateY(45%);
+}
+
+/* button */
+.button-6 {
+  align-items: center;
+  background-color: #c85000;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  width: 800px;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-6:hover,
+.button-6:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.button-6:hover {
+  transform: translateY(-1px);
+}
+
+.button-6:active {
+  background-color: #c85000;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+.btn-5{
+    width: 100%;
+    padding: 0 40px;
+}
+
+
+/* cartsample */
+
+.cartImage img{
+    width: 120px;
+    height: 120px;
+    margin: 4px 0;
+    opacity: 0.8;
+}
+.cartImage img:hover{
+    opacity: 1.1;
+    transition: .2s ease-in;
+}
+.cartSample{
+    background-color: #fff;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    border-radius: 2px;
+}
+.cardBody{
+    display: flex;
+    justify-content: center;
+    margin: 2% 0;
+}
+.removeItem{
+    font-size: 20px;
+    color: red;
+}
+.cartHead{
+    color:white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+

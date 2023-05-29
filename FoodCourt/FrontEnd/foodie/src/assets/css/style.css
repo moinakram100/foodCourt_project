@@ -1,0 +1,334 @@
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+/* body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: #222 !important;
+  background: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+  transition: 3s;
+  overflow-x: hidden;
+} */
+
+.navbg{
+  list-style-type: none;
+  display: flex;
+  background-size: 400% 400%;
+  background-image: linear-gradient(-45deg, #ff5959, #ff4040, #ff0d6e, #ff8033,#d74177);
+  box-shadow: 3px 3px 20px #ff3352;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    margin: 0px 10px;
+}
+.navbarlist li{
+    margin: 0 12px;
+}
+.navbarlist li a:hover{
+    text-decoration: underline;
+}
+.homelink{
+    margin:0 10px;
+    font-weight: bold;
+}
+.footer{
+    /* background-image: linear-gradient(-45deg, #ff5959, #ff4040, #ff0d6e, #ff8033,#d74177); */
+    background-image: linear-gradient(-45deg, #273746, #707b7c, #1b3631);
+    display: flex;
+    justify-content: center;
+
+}
+.footerName{
+  margin: 5px 0;
+  text-decoration: underline;
+  font-size: 24px;
+}
+.footerinfo{
+  margin: 15px 0;
+}
+.ficons span{
+  margin: 0 10px;
+}
+.flist{
+  list-style-type: none;
+  color: white;
+}
+.flist li{
+  cursor: pointer;
+  margin: 2px 0;
+  margin-left: -31px;
+}
+.flist li span{
+ margin-left: 7px;
+}
+.ficons span{
+  cursor: pointer;
+}
+hr{
+  color: white;
+}
+.copyinfo{
+  color:white;
+  font-size: 12px;
+}
+.copyinfo p span{
+  margin: 0 2px;
+}
+.homeImg{
+ opacity: 0.8;
+ filter: brightness(0.5);
+ width: 100%;
+ height:fit-content;
+ height: 100vh;
+ position: relative;
+ background-size: cover;
+ object-fit: cover;
+ background-position: center;
+ 
+}
+.myform{
+  position: absolute;
+  top: 25%;
+  left:10vw;
+  color:white;
+}
+.loginPage{
+  background-color: #333333;
+  border-radius: 2%;
+}
+.loginImage{
+  position: relative;
+  filter: brightness(0.5);
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logincard{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.logincard{
+  position: absolute;
+  top: 30%;
+  left: 32%;
+  /* transform: translate(-50%, -50%); */
+}
+.mytext{
+  margin-left: 85%;
+}
+.signUpcard{
+  position: absolute;
+  top: 26%;
+  left: 32%;
+}
+.nav-right{
+  text-align: right;
+}
+@media screen and (max-width: 500px) {
+  .logincard {
+    margin-left: -28%;
+    width: 100%; 
+  }
+}
+@media screen and (max-width: 500px) {
+  .signUpcard {
+    margin-left: -28%;
+    width: 100%; 
+  }
+}
+.signupText{
+   text-align: center;
+   color:white;
+   margin-top: 2%;
+   margin: 5% 0;
+}
+
+
+.module{
+  position:relative;
+  top:15%;    
+  height:70%;
+  width:450px;
+  margin-left:auto;
+  margin-right:auto;
+  border-radius:5px;
+  background:RGBA(255,255,255,1);  
+  -webkit-box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);        
+  box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);
+  
+}
+
+.form{
+  float:left;
+  height:86%;
+  width:100%;
+  box-sizing:border-box;
+  padding:40px;
+}
+
+.textbox{
+  height:7vh;
+  width:100%;
+  border-radius:3px;
+  border:rgba(0,0,0,.3) 2px solid;
+  box-sizing:border-box;
+  padding:10px;
+  margin-bottom:20px;
+}
+
+.textbox:focus{
+  outline:none;
+   border:rgba(24,149,215,1) 2px solid;
+   color:rgba(24,149,215,1);
+}
+
+.button{
+  height:50px;
+  width:100%;
+  border-radius:3px;
+  border:rgba(0,0,0,.3) 0px solid;
+  box-sizing:border-box;
+  padding:10px;
+  margin-bottom:30px;
+  background:#90c843;
+  color:#FFF;
+  font-weight:bold;
+  font-size: 12pt;
+  transition:background .4s;
+  cursor:pointer;
+}
+
+.button:hover{
+  background:#80b438;
+}
+.signupText{
+   text-decoration: underline;
+}
+.mainText1{
+  font-size: 3vw;
+  font-weight: bold;
+  font-family: 'Courgette', cursive;
+}
+.mainText2{
+  font-size: 5vw;
+  font-family: 'Acme', sans-serif;
+  color: #f39c12
+}
+.mainText3{
+  font-size: 2vw;
+  font-family: 'Courgette', cursive;
+}
+.homebtn{
+  width: 10%;
+}
+
+/* CSS button*/
+.button-6 {
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-6:hover,
+.button-6:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+.button-6:hover {
+  transform: translateY(-1px);
+}
+.button-6:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+/* CSS */
+.button-5 {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-5:hover,
+.button-5:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+  transform: translateY(-1px);
+}
+
+.button-5:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+.apptbg{
+  background-image: linear-gradient(-45deg, #273746, #707b7c, #1b3631);}
+
+.error{
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+  height: 90vh;
+  transform: translateY(33%);
+}

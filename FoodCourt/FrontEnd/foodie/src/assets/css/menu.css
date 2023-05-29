@@ -1,0 +1,18 @@
+.menulist{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(-45deg, #273746, #707b7c, #1b3631);
+    color: white;
+    padding: 0 7%;
+}
+.menulist li:nth-child(2){
+    margin-top: 50%;
+}
+.viewlink{
+    text-decoration: none;
+    color:white;
+}
+.viewlink:hover{
+    color : orangered;
+}
